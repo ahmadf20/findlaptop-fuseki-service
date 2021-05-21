@@ -27,7 +27,7 @@ cd findlaptop-fuseki-service
 ```
 3. Run the docker
 ```sh
-docker-compose up -d
+docker-compose up --build
 ```
 4. The service will be available at [http://localhost:3030](http://localhost:3030)
 

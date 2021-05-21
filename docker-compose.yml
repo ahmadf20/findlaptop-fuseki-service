@@ -10,6 +10,7 @@ services:
             - fuseki:/app
         environment: 
             - ADMIN_PASSWORD=admin123
+            - PORT=3030
 volumes:
     fuseki:
-        name: fusekiÍ
+        name: fuseki
